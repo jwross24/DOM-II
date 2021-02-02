@@ -8,13 +8,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="less/index.less" rel="stylesheet">
-
-  <!-- If we omit the "defer" attribute, `index.js` will load and execute
-  _before_ the rest of the HTML is parsed by the browser, which would be bad because
-  the code inside `index.js` expects the page to be fully parsed (and the DOM fully built) -->
-  <script defer src="js/index.js"></script>
-  <!-- We will often see script tags placed right before the closing body tag,
-  it's a way of getting around the problem above without the need for "defer" -->
 </head>
 
 <body>
@@ -88,5 +81,6 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
